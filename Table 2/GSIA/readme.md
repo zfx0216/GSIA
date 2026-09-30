@@ -1,0 +1,11 @@
+# GSIA — Table 1
+
+This folder contains the gradient-guided saliency-mask attack used for Table 1. The main run script is `GSIA.py`; the other Python files provide the attack implementation and helpers.
+
+## Files
+
+`GSIA.py`
+
+## Run
+
+Replace every `...` in the run script and any imported local module with the correct image, checkpoint, class-index, and output paths. Review the model architecture and L2 budget in the script, then run `GSIA.py` with Python from this folder. Output images can be evaluated by the metric or success-rate scripts in the parent experiment folder.

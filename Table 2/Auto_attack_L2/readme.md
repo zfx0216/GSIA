@@ -1,0 +1,11 @@
+# AutoAttack L2 — Table 1
+
+This folder contains the AutoAttack evaluation and adversarial-image generation used for Table 1. The main run script is `Autoattack_run.py`; the other Python files provide the attack implementation and helpers.
+
+## Files
+
+`apgd.py`, `apgdt.py`, `attack.py`, `Autoattack.py`, `Autoattack_run.py`, `fab.py`, `multiattack.py`, `square.py`
+
+## Run
+
+Replace every `...` in the run script and any imported local module with the correct image, checkpoint, class-index, and output paths. Review the model architecture and L2 budget in the script, then run `Autoattack_run.py` with Python from this folder. Output images can be evaluated by the metric or success-rate scripts in the parent experiment folder.
